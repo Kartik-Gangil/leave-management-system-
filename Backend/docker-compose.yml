@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: postgres 
+    environment:
+      POSTGRES_USER: techcarrel
+      POSTGRES_PASSWORD: 123
+      POSTGRES_DB: LMD
+    ports:
+      - "5432:5432"
+    
